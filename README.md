@@ -43,9 +43,6 @@ Contributions to this project are welcome! If you find any issues or want to add
 - The project is inspired by the need to provide a simple text conversion tool for developers and learners.
 - The conversion logic is based on standard PHP functions for binary, hexadecimal, and ASCII representations.
 
-## Support
-For any questions or support related to this project, please contact your-email@example.com.
-
 ## Author
 Text Converter is developed by [Abiodun Adeniji](https://github.com/abiodunadeniji).
 
