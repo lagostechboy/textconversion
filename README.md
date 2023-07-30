@@ -1,5 +1,7 @@
 # Text Converter
 
+![Text Converter](convert-ss.png)
+
 ## Getting Started
 To run the Text Converter locally on your machine, follow the instructions below:
 
@@ -14,7 +16,7 @@ To run the Text Converter locally on your machine, follow the instructions below
 2. Start your web server to serve the application.
 
 ## Usage
-1. Open your web browser and navigate to the Text Converter application's URL (e.g., http://localhost/text_converter/).
+1. Open your web browser and navigate to the Text Converter application's URL (e.g., http://localhost/textconversion/index.php).
 
 2. The application will display a simple form with an input field.
 
@@ -47,4 +49,4 @@ Contributions to this project are welcome! If you find any issues or want to add
 Text Converter is developed by [Abiodun Adeniji](https://github.com/abiodunadeniji).
 
 ## Release History
-- Version 1.0.0 (2022-04-18): Initial release of Text Converter.
+- Version 1.0.0 (2023-07-28): Initial release of Text Converter.
