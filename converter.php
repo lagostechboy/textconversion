@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["text"])) {
     //get the POST value ...xD
     $text = $_POST['text'];
 
-    //this function converts text to binary
+    //this function will convert text to binary
     function convertToBinary($text){
         $binary = '';
         $length = strlen($text);
@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["text"])) {
         return trim($binary);
     }
 
-    //this function converts text to ascii
+    //this function will convert text to ascii
     function convertToAscii($text) {
         $ascii = '';
 
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["text"])) {
         return trim($ascii);
     }
 
-    //this function converts text to hex
+    //this function will convert text to hex
     function convertToHex($text) {
         $hex = '';
         
@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["text"])) {
         return trim($hex);
     }
 
-    //this function retrieves the input
+    //this function will retrieve the input
     function inputTxt($text) {
         $Inputs = '';
         if ($text == $_POST['text'] && !empty($text)) {
