@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["text"])) {
     function inputTxt($text) {
         $Inputs = '';
         if ($text == $_POST['text'] && !empty($text)) {
-            $Inputs .= $text; 
+            $Inputs = $text; 
         }
         return ($Inputs);
     }
