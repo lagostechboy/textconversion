@@ -1,7 +1,9 @@
-# Text Converter
 
 ![Text Converter](convert-ss.png)
 ![Text Converter](convert-ss2.png)
+
+# Text Converter
+This Basic web app was built using PHP and css. it can convert text to BINARY, HEX, and ASCII.
 
 ## Getting Started
 To run the Text Converter locally on your machine, follow the instructions below:
@@ -21,7 +23,7 @@ To run the Text Converter locally on your machine, follow the instructions below
 
 2. The application will display a simple form with an input field.
 
-3. Enter the text that you want to convert in the input field.
+3. Enter the text that you want to convert in the input field. Then select the checkboxes according to your preference.
 
 4. Click the "Convert" button to perform the conversion.
 
@@ -51,3 +53,4 @@ Text Converter is developed by [Abiodun Adeniji](https://github.com/abiodunadeni
 
 ## Release History
 - Version 1.0.0 (2023-07-28): Initial release of Text Converter.
+- Version 1.0.1 (2023-08-01): Latest release of Text Converter.
