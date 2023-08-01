@@ -1,6 +1,6 @@
 # Text Converter
 
-![Text Converter](convert-ss.png)
+![Text Converter](convert-ss.png)(convert-ss2.png)
 
 ## Getting Started
 To run the Text Converter locally on your machine, follow the instructions below:
