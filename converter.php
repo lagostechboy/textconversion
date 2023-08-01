@@ -45,11 +45,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST["text"])) {
         }
         return ($Inputs);
     }
-    
-    //calling the functions
-    $ascii = convertToAscii($textInput);
-    $hex = convertToHex($textInput);
-    $binary = convertToBinary($textInput);
-    $Input = inputTxt($text);
 }
 ?>

@@ -1,3 +1,12 @@
+/*
+App Name: Basic Text Converter
+Theme URI: https://www.github.com/abiodunadeniji/textconversion
+Description: This a basic text converter. can convert text to ASCII, HEX, and BINARY.
+Author: Abiodun Adeniji
+Author URI: https://www.linkedin.com/in/abiodun-adeniji/
+Version: 1.0.1
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -10,8 +19,34 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Ensures the container fills the viewport height */
+    min-height: 100vh; 
 }
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .conversion-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .option input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 
 h1 {
     margin: 20px 0;
@@ -30,7 +65,7 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    width: 70%;
+    width: auto;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -45,6 +80,7 @@ input[type="text"] {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: auto;
 }
 
 button {
